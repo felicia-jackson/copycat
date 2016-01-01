@@ -1,3 +1,7 @@
+body {
+  margin:auto;
+  font-family: Arial;
+}
 .primary-text{
   color:#47a0ce;
 }
@@ -6,4 +10,85 @@
 }
 .secondary-text{
   color:white;
+}
+.header {
+  font-size: 20px;
+  background-color: #21a9ec;
+  color:white;
+  line-height: 20px;
+}
+.icon {
+  width:50px;
+}
+.logout {
+  background-color:white;
+  color:#21a9ec;
+  text-align: center;
+  width:90px;
+  height: 25px;
+  border-radius:20px;
+  margin: 10px;
+  float:right;
+}
+.container {
+  padding:25px;
+}
+.col1 {
+  width:25%;
+  float:left;
+}
+.imgProfile {
+  float:left;
+  width:150px;
+  border:2px solid #e0e0e0; 
+  margin-right: 40px;
+  margin-left: 20px;
+}
+.profileInfo {
+  width:150px;
+  border:2px solid #e0e0e0;
+  text-align: center;
+  margin: 20px;
+  float:left;
+}
+#name {
+  font-size: 20px;
+}
+.info {
+  font-size: 12px;
+}
+.col2 {
+  width: 50%;
+  float:left; 
+}
+.followcount{
+  border:2px solid #e0e0e0;
+  text-align: center;
+  margin-bottom:25px;
+}
+.count {
+  color:#21a9ec;
+}
+.tweets {
+  border:2px solid #e0e0e0;
+}
+.retweet {
+  background-color:#21a9ec;
+  color:white;
+  text-align: center;
+  width:70px;
+  height: 20px;
+  border-radius:40px;
+  margin: 10px;
+  float:right;
+}
+.col3 {
+  width:25%;
+  float:right;
+}
+.footer {
+  background-color: #21a9ec;
+  color:white;
+  text-align: center;
+  clear:both;
 }
