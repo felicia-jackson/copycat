@@ -13,16 +13,18 @@ body {
 }
 .header {
   font-size: 20px;
-  background-color: #21a9ec;
+  background-color: #47a0ce;
   color:white;
-  line-height: 20px;
+  line-height: 30px;
 }
 .icon {
   width:50px;
+  margin-left:10px;
+  padding: 10px;
 }
 .logout {
   background-color:white;
-  color:#21a9ec;
+  color:#47a0ce;
   text-align: center;
   width:90px;
   height: 25px;
@@ -31,7 +33,7 @@ body {
   float:right;
 }
 .container {
-  padding:25px;
+  padding:50px;
 }
 .col1 {
   width:25%;
@@ -59,21 +61,26 @@ body {
 }
 .col2 {
   width: 50%;
-  float:left; 
+  float:left;
+  padding-bottom: 50px; 
 }
 .followcount{
   border:2px solid #e0e0e0;
   text-align: center;
   margin-bottom:25px;
 }
+.followtext {
+  color:black;
+}
 .count {
   color:#21a9ec;
 }
 .tweets {
   border:2px solid #e0e0e0;
+  padding:20px;
 }
 .retweet {
-  background-color:#21a9ec;
+  background-color:#47a0ce;
   color:white;
   text-align: center;
   width:70px;
@@ -83,11 +90,24 @@ body {
   float:right;
 }
 .col3 {
-  width:25%;
+  border:2px solid #e0e0e0;
+  width:125px;
+  text-align: center;
   float:right;
+  margin-right: 30px;
+}
+.who {
+  font-size: 15px;
+}
+.whoimgprofile {
+  width:30px;
+}
+.whoname {
+  font-size: 12px;
 }
 .footer {
-  background-color: #21a9ec;
+  height:90px;
+  background-color: #47a0ce;
   color:white;
   text-align: center;
   clear:both;
